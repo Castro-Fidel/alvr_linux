@@ -1,0 +1,15 @@
+# for new rust and cargo
+git@abf.io:victorr2007/rust.git
+
+# install dependencies (needed modifed for Rosa)
+    libfuse2 build-essential pkg-config nasm libva-dev libdrm-dev libvulkan-dev libx264-dev libx265-dev cmake libasound2-dev libjack-jackd2-dev libxrandr-dev libunwind-dev libffmpeg-nvenc-dev xrandr-dev
+
+    nvidia-cuda-toolkit && cp packaging/deb/cuda.pc /usr/share/pkgconfig
+
+# build and package ALVR
+
+export RUST_BACKTRACE=1
+cargo xtask prepare-deps --platform linux
+
+cargo xtask bump --nightly
+cargo xtask package-server

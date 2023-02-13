@@ -1,0 +1,434 @@
+{
+  "serverVersion": "20.0.0-dev07+nightly.2023.02.12",
+  "setupWizard": false,
+  "locale": "system",
+  "openvr_config": {
+    "universe_id": 2,
+    "headset_serial_number": "1WMGH000XX0000",
+    "headset_tracking_system_name": "oculus",
+    "headset_model_number": "Miramar",
+    "headset_driver_version": "1.55.0",
+    "headset_manufacturer_name": "Oculus",
+    "headset_render_model_name": "generic_hmd",
+    "headset_registered_device_type": "oculus/1WMGH000XX0000",
+    "eye_resolution_width": 1888,
+    "eye_resolution_height": 2080,
+    "target_eye_resolution_width": 1888,
+    "target_eye_resolution_height": 2080,
+    "seconds_from_vsync_to_photons": 0.005,
+    "tracking_ref_only": false,
+    "enable_vive_tracker_proxy": false,
+    "aggressive_keyframe_resend": false,
+    "adapter_index": 0,
+    "codec": 1,
+    "refresh_rate": 90,
+    "use_10bit_encoder": false,
+    "enable_vbaq": false,
+    "use_preproc": false,
+    "preproc_sigma": 4,
+    "preproc_tor": 7,
+    "encoder_quality_preset": 2,
+    "rate_control_mode": 0,
+    "entropy_coding": 1,
+    "force_sw_encoding": false,
+    "sw_thread_count": 0,
+    "encode_bitrate_mbs": 90,
+    "enable_adaptive_bitrate": false,
+    "bitrate_maximum": 0,
+    "latency_target": 0,
+    "latency_use_frametime": false,
+    "latency_target_maximum": 0,
+    "latency_target_offset": 0,
+    "latency_threshold": 0,
+    "bitrate_up_rate": 0,
+    "bitrate_down_rate": 0,
+    "bitrate_light_load_threshold": 0.0,
+    "controllers_tracking_system_name": "oculus",
+    "controllers_manufacturer_name": "Oculus",
+    "controllers_model_number": "Miramar",
+    "render_model_name_left_controller": "oculus_quest2_controller_left",
+    "render_model_name_right_controller": "oculus_quest2_controller_right",
+    "controllers_serial_number": "1WMGH000XX0000_Controller",
+    "controllers_type_left": "oculus_touch",
+    "controllers_type_right": "oculus_touch",
+    "controllers_registered_device_type": "oculus/1WMGH000XX0000_Controller",
+    "controllers_input_profile_path": "{oculus}/input/touch_profile.json",
+    "controllers_mode_idx": 7,
+    "controllers_enabled": true,
+    "override_trigger_threshold": false,
+    "trigger_threshold": 0.0,
+    "override_grip_threshold": false,
+    "grip_threshold": 0.0,
+    "haptics_intensity": 1.0,
+    "haptics_amplitude_curve": 0.4,
+    "haptics_min_duration": 0.01,
+    "haptics_low_duration_amplitude_multiplier": 2.5,
+    "haptics_low_duration_range": 0.5,
+    "use_headset_tracking_system": false,
+    "enable_foveated_rendering": false,
+    "foveation_center_size_x": 0.0,
+    "foveation_center_size_y": 0.0,
+    "foveation_center_shift_x": 0.0,
+    "foveation_center_shift_y": 0.0,
+    "foveation_edge_ratio_x": 0.0,
+    "foveation_edge_ratio_y": 0.0,
+    "enable_color_correction": true,
+    "brightness": 0.0,
+    "contrast": 0.1,
+    "saturation": 0.3,
+    "gamma": 1.0,
+    "sharpening": 1.0,
+    "linux_async_reprojection": false,
+    "nvenc_tuning_preset": 2,
+    "nvenc_multi_pass": 1,
+    "nvenc_adaptive_quantization_mode": 1,
+    "nvenc_low_delay_key_frame_scale": -1,
+    "nvenc_refresh_rate": -1,
+    "enable_intra_refresh": false,
+    "intra_refresh_period": -1,
+    "intra_refresh_count": -1,
+    "max_num_ref_frames": -1,
+    "gop_length": -1,
+    "p_frame_strategy": -1,
+    "nvenc_rate_control_mode": -1,
+    "rc_buffer_size": -1,
+    "rc_initial_delay": -1,
+    "rc_max_bitrate": -1,
+    "rc_average_bitrate": -1,
+    "nvenc_enable_weighted_prediction": false,
+    "capture_frame_dir": ""
+  },
+  "clientConnections": {
+    "8179.client.alvr": {
+      "displayName": "A8110",
+      "currentIp": "192.168.0.44",
+      "manualIps": [],
+      "trusted": true
+    }
+  },
+  "sessionSettings": {
+    "video": {
+      "adapterIndex": 0,
+      "renderResolution": {
+        "scale": 1.33,
+        "absolute": {
+          "width": 2880,
+          "height": 1600
+        },
+        "variant": "scale"
+      },
+      "recommendedTargetResolution": {
+        "scale": 1.33,
+        "absolute": {
+          "width": 2880,
+          "height": 1600
+        },
+        "variant": "scale"
+      },
+      "preferredFps": 90.0,
+      "maxBufferingFrames": 10.0,
+      "bufferingHistoryWeight": 0.99,
+      "codec": {
+        "variant": "HEVC"
+      },
+      "rateControlMode": {
+        "variant": "CBR"
+      },
+      "entropyCoding": {
+        "variant": "CAVLC"
+      },
+      "use10bitEncoder": false,
+      "forceSwEncoding": false,
+      "swThreadCount": 0,
+      "encodeBitrateMbs": 90,
+      "adaptiveBitrate": {
+        "enabled": false,
+        "content": {
+          "bitrateMaximum": 200,
+          "latencyTarget": 12000,
+          "latencyUseFrametime": {
+            "enabled": false,
+            "content": {
+              "latencyTargetMaximum": 30000,
+              "latencyTargetOffset": 0
+            }
+          },
+          "latencyThreshold": 3000,
+          "bitrateUpRate": 1,
+          "bitrateDownRate": 3,
+          "bitrateLightLoadThreshold": 0.7
+        }
+      },
+      "advancedCodecOptions": {
+        "encoderQualityPreset": {
+          "variant": "speed"
+        },
+        "nvencOverrides": {
+          "tuningPreset": {
+            "variant": "lowLatency"
+          },
+          "multiPass": {
+            "variant": "quarterResolution"
+          },
+          "adaptiveQuantizationMode": {
+            "variant": "spatial"
+          },
+          "lowDelayKeyFrameScale": -1,
+          "refreshRate": -1,
+          "enableIntraRefresh": false,
+          "intraRefreshPeriod": -1,
+          "intraRefreshCount": -1,
+          "maxNumRefFrames": -1,
+          "gopLength": -1,
+          "pFrameStrategy": -1,
+          "rateControlMode": -1,
+          "rcBufferSize": -1,
+          "rcInitialDelay": -1,
+          "rcMaxBitrate": -1,
+          "rcAverageBitrate": -1,
+          "enableWeightedPrediction": false
+        },
+        "amfControls": {
+          "enableVbaq": false,
+          "usePreproc": false,
+          "preprocSigma": 4,
+          "preprocTor": 7
+        },
+        "mediacodecExtraOptions": {
+          "key": "",
+          "value": {
+            "float": 0.0,
+            "int32": 0,
+            "int64": 0,
+            "string": "",
+            "variant": "string"
+          },
+          "content": [
+            [
+              "operating-rate",
+              {
+                "type": "int32",
+                "content": 2147483647
+              }
+            ],
+            [
+              "priority",
+              {
+                "type": "int32",
+                "content": 0
+              }
+            ],
+            [
+              "low-latency",
+              {
+                "type": "int32",
+                "content": 1
+              }
+            ],
+            [
+              "vendor.qti-ext-dec-low-latency.enable",
+              {
+                "type": "int32",
+                "content": 1
+              }
+            ]
+          ]
+        }
+      },
+      "secondsFromVsyncToPhotons": 0.005,
+      "foveatedRendering": {
+        "enabled": false,
+        "content": {
+          "centerSizeX": 0.4,
+          "centerSizeY": 0.35,
+          "centerShiftX": 0.4,
+          "centerShiftY": 0.1,
+          "edgeRatioX": 4.0,
+          "edgeRatioY": 5.0
+        }
+      },
+      "oculusFoveationLevel": {
+        "variant": "none"
+      },
+      "dynamicOculusFoveation": false,
+      "colorCorrection": {
+        "enabled": true,
+        "content": {
+          "brightness": 0.0,
+          "contrast": 0.1,
+          "saturation": 0.3,
+          "gamma": 1.0,
+          "sharpening": 1.0
+        }
+      }
+    },
+    "audio": {
+      "linuxBackend": {
+        "variant": "alsa"
+      },
+      "gameAudio": {
+        "enabled": true,
+        "content": {
+          "deviceId": {
+            "name": "",
+            "index": 1,
+            "variant": "default"
+          },
+          "muteWhenStreaming": true,
+          "bufferingConfig": {
+            "averageBufferingMs": 10,
+            "batchMs": 10
+          }
+        }
+      },
+      "microphone": {
+        "enabled": false,
+        "content": {
+          "inputDeviceId": {
+            "name": "",
+            "index": 1,
+            "variant": "default"
+          },
+          "bufferingConfig": {
+            "averageBufferingMs": 50,
+            "batchMs": 10
+          }
+        }
+      }
+    },
+    "headset": {
+      "modeIdx": 2,
+      "universeId": 2,
+      "serialNumber": "1WMGH000XX0000",
+      "trackingSystemName": "oculus",
+      "modelNumber": "Miramar",
+      "driverVersion": "1.55.0",
+      "manufacturerName": "Oculus",
+      "renderModelName": "generic_hmd",
+      "registeredDeviceType": "oculus/1WMGH000XX0000",
+      "trackingRefOnly": false,
+      "enableViveTrackerProxy": false,
+      "controllers": {
+        "enabled": true,
+        "content": {
+          "modeIdx": 7,
+          "trackingSystemName": "oculus",
+          "manufacturerName": "Oculus",
+          "modelNumber": "Miramar",
+          "renderModelNameLeft": "oculus_quest2_controller_left",
+          "renderModelNameRight": "oculus_quest2_controller_right",
+          "serialNumber": "1WMGH000XX0000_Controller",
+          "ctrlTypeLeft": "oculus_touch",
+          "ctrlTypeRight": "oculus_touch",
+          "registeredDeviceType": "oculus/1WMGH000XX0000_Controller",
+          "inputProfilePath": "{oculus}/input/touch_profile.json",
+          "poseTimeOffsetMs": 20,
+          "linearVelocityCutoff": 0.05,
+          "angularVelocityCutoff": 10.0,
+          "positionOffsetLeft": [
+            0.0,
+            0.0,
+            -0.11
+          ],
+          "rotationOffsetLeft": [
+            -20.0,
+            0.0,
+            0.0
+          ],
+          "overrideTriggerThreshold": {
+            "enabled": false,
+            "content": {
+              "triggerThreshold": 0.1
+            }
+          },
+          "overrideGripThreshold": {
+            "enabled": false,
+            "content": {
+              "gripThreshold": 0.1
+            }
+          },
+          "hapticsIntensity": 1.0,
+          "hapticsAmplitudeCurve": 0.4,
+          "hapticsMinDuration": 0.01,
+          "hapticsLowDurationAmplitudeMultiplier": 2.5,
+          "hapticsLowDurationRange": 0.5,
+          "useHeadsetTrackingSystem": false
+        }
+      },
+      "positionRecenteringMode": {
+        "local": {
+          "viewHeight": 1.5
+        },
+        "variant": "localFloor"
+      },
+      "rotationRecenteringMode": {
+        "variant": "yaw"
+      },
+      "extraLatencyMode": false
+    },
+    "connection": {
+      "clientDiscovery": {
+        "enabled": true,
+        "content": {
+          "autoTrustClients": false
+        }
+      },
+      "webServerPort": 8082,
+      "streamProtocol": {
+        "variant": "udp"
+      },
+      "serverSendBufferBytes": {
+        "custom": 100000,
+        "variant": "maximum"
+      },
+      "serverRecvBufferBytes": {
+        "custom": 100000,
+        "variant": "maximum"
+      },
+      "clientSendBufferBytes": {
+        "custom": 100000,
+        "variant": "maximum"
+      },
+      "clientRecvBufferBytes": {
+        "custom": 100000,
+        "variant": "maximum"
+      },
+      "streamPort": 9944,
+      "aggressiveKeyframeResend": false,
+      "onConnectScript": "",
+      "onDisconnectScript": "",
+      "packetSize": 1400,
+      "statisticsHistorySize": 256,
+      "disconnectionCriteria": {
+        "enabled": false,
+        "content": {
+          "latencyThresholdMs": 150,
+          "sustainDurationS": 3
+        }
+      }
+    },
+    "extra": {
+      "theme": {
+        "variant": "systemDefault"
+      },
+      "revertConfirmDialog": true,
+      "restartConfirmDialog": true,
+      "promptBeforeUpdate": true,
+      "updateChannel": {
+        "variant": "noUpdates"
+      },
+      "logToDisk": false,
+      "logButtonPresses": false,
+      "notificationLevel": {
+        "variant": "warning"
+      },
+      "excludeNotificationsWithoutId": false,
+      "captureFrameDir": "",
+      "patches": {
+        "removeSyncPopup": false,
+        "linuxAsyncReprojection": false
+      }
+    }
+  },
+  "advanced": false
+}
