@@ -6,10 +6,12 @@ git@abf.io:victorr2007/rust.git
 
     nvidia-cuda-toolkit && cp packaging/deb/cuda.pc /usr/share/pkgconfig
 
+    rust cargo
+
 # build and package ALVR
 
 export RUST_BACKTRACE=1
-cargo xtask prepare-deps --platform linux
+cargo xtask prepare-deps --no-nvidia --platform linux
 
 cargo xtask bump --nightly
 cargo xtask package-server

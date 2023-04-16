@@ -18,8 +18,8 @@ echo "Used:
  * ALVR ${ALVR_VERSION}
 
 Must be installed in PC:
- * STEAM (beta)
- * SteamVR (beta)
+ * STEAM
+ * SteamVR
 
 Must be installed in PICO 4 or Oculus Quest 2 (from scripts folder):
  * alvr_client_android_${ALVR_VERSION}.apk
@@ -38,7 +38,7 @@ if [[ ! $(which getcap 2>/dev/null) ]] && [[ ! $(echo $PATH | grep '/usr/sbin') 
     export PATH+=':/usr/sbin'
 fi
 if [[ ! $(which getcap) ]] ; then
-    echo "ERROR: getcap not found."
+    echo "ERROR: getcap (libcap-utils) not found."
     exit 1
 fi
 echo "OK.
